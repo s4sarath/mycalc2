@@ -1,0 +1,21 @@
+poetry new mycalc2
+
+Edit pyproject.toml
+
+poetry add numpy
+
+poetry add --dev pytest
+
+poetry add --dev coverage[toml] pytest-cov
+
+poetry add --dev flake8 black isort
+
+pip install pre-commit
+
+git init
+
+pre-commit install
+
+pre-commit run --all-files
+
+Edit .pre-commit-config.yaml
