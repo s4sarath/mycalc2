@@ -21,6 +21,10 @@ def subtract(first_term, second_term):
     return first_term - second_term
 
 
+def multiply(first_term, second_term):
+    return first_term * second_term
+
+
 def add_numpy(array1, array2):
     return add_fn(array1, array2)
 
