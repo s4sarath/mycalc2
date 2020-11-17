@@ -19,3 +19,7 @@ pre-commit install
 pre-commit run --all-files
 
 Edit .pre-commit-config.yaml
+
+poetry add codecov
+
+poetry export -f requirements.txt --output requirements.txt
